@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Adithya task</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <form name="demo" onsubmit="return validateFormOnSubmit(this)" action="" class="form">
+            <h1>Form</h1>
+            <table summary="Demonstration form">
+                <tbody>
+                    <div class="inputfield">
+                        <tr>
+                            <td><label for="title">Title</label></td>
+                            <td>
+                                <select name="title" class="title">
+                                    <option value="title" selected disabled>Select title</option>
+                                    <option value="Mr">Mr</option>
+                                    <option value="Mrs">Mrs</option>
+                                    <option value="Ms">Ms</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </div>
+                    <div class="inputfield">
+                        <tr>
+                            <td><label for="username">Name</label></td>
+                            <td><input name="username" size="35" maxlength="50" type="text"></td>
+                        </tr>
+                    </div>
+                    <div class="inputfield">
+                        <tr>
+                            <td><label for="email">Email</label></td>
+                            <td><input name="email" size="35" maxlength="30" type="text"></td>
+                        </tr>
+                    </div>
+                    <div class="inputfield">
+                        <tr>
+                            <td><label for="pwd">Password</label></td>
+                            <td><input name="pwd" size="35" maxlength="25" type="password"></td>
+                        </tr>
+                    </div>
+                    <div class="inputfield">
+                        <tr>
+                            <td><label for="phone">Contact number</label></td>
+                            <td><input name="phone" size="35" maxlength="25" type="text"></td>
+                        </tr>
+                    </div>
+                    <div class="inputfield">
+                        <tr>
+                            <td><label for="from">Address</label></td>
+                            <td><textarea name="from" id="address" cols="38"  rows="10"></textarea></td>
+                        </tr>
+                    </div>
+
+                    <div class="inputfield">
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td><input name="Submit" value="Submit" type="submit" class="btn"></td>
+                            <td>&nbsp;</td>
+                        </tr>
+                    </div>
+                </tbody>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>
